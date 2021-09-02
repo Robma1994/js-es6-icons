@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Rubik", sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+/*HEADER*/
+header{
+    font-family: "Acme", sans-serif;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+}
+header > h1 {
+    font-size: 70px;
+    color: blue;
+}
+/*MAIN*/
+main{
+    width: 100%;
+    height: calc(100% - 140px);
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+main > .card{
+    flex-basis: calc(100% / 5 - 10px);
+    min-width: 200px;
+    height: 80px;
+    background-color: gainsboro;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px 10px 10px 10px
+}
+
+/*FOOTER*/
+footer{
+    width: 100%;
+    height: 70px;
+    background-color: green;
+}
